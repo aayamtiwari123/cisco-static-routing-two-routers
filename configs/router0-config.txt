@@ -7,5 +7,10 @@ Router(config-if) #no shutdown
 router(config)# interface gig0/0
 router(config-if) ip address 192.168.1.1 255.255.255.0
 router(config-if) #no shutdown
+
+ip route 192.168.3.0 255.255.255.0 10.0.0.2
+
 router(config-id) exit
+
+
 
