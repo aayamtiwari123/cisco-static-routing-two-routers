@@ -61,6 +61,5 @@ Topology diagram is available in the `topology/` folder.
 ip route 192.168.3.0 255.255.255.0 10.0.0.2
 
 ### Router1
-```bash
 ip route 192.168.1.0 255.255.255.0 10.0.0.1
 
