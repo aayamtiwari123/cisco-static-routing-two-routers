@@ -4,7 +4,7 @@ Router(config)# interface gig0/0
 Router(config-if) ip address 10.0.0.2 255.255.255.0
 Router(config-if) #no shutdown
 
-router(config)# interface gig0/0
+router(config)# interface gig0/1
 router(config-if) ip address 192.168.3.1 255.255.255.0
 router(config-if) #no shutdown
 
